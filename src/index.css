@@ -1,0 +1,86 @@
+
+div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3px;
+  border: 1px solid #3323bd; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+}
+
+  .cart-container {
+    background-color: #d63c3c;
+    padding: 20px;
+  }
+  
+  
+  h2 {
+    color: rgb(13, 13, 133); 
+  font-size: 24px; 
+  font-family: 'Franklin Gothic Medium'; 
+  text-align: center; 
+  margin-bottom: 10px; 
+  text-transform: uppercase; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+  padding: 10px 20px;
+  background-color: orangered; 
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .Payment {
+    margin-top: 20px;
+  }
+  
+  .Payment button {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .Payment button:hover {
+    background-color: #45a049;
+  }
+  
+  .ThankYou {
+    color: #4caf50;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
