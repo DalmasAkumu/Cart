@@ -25,7 +25,7 @@ const Payment = ({ totalCost, handlePaymentSuccess }) => {
         />
       </div>
       <button onClick={handlePayment}>Checkout</button>
-      <p>Total Cost: ${totalCost}</p>
+      <p>Total Cost: Ksh {totalCost}</p>
     </div>
   );
 };

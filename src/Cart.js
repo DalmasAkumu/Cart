@@ -67,7 +67,7 @@ const Cart = () => {
               ))}
             </ul>
           )}
-          <p>Total Cost: ${calculateTotal()}</p>
+          <p>Total Cost: Ksh {calculateTotal()}</p>
           <button onClick={clearCart}>Clear Cart</button>
           <Payment totalCost={calculateTotal()} handlePaymentSuccess={handlePaymentSuccess} />
         </>
